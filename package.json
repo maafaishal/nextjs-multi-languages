@@ -1,0 +1,16 @@
+{
+  "name": "Simple Multi Bahasa",
+  "author": "Muhammad Al Anis Faishal",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^7.0.2",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0"
+  }
+}
