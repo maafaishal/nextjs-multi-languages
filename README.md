@@ -7,6 +7,8 @@ Kali ini saya membuat modul Multi Languages atau Multi Bahasa dengan framework N
 ``` bash
 $ yarn
 
+# then
+
 $ yarn dev
 ```
 Kemudian akses http://localhost:3000 di browser.
