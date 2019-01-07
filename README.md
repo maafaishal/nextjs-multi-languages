@@ -13,6 +13,10 @@ $ yarn dev
 ```
 Kemudian akses http://localhost:3000 di browser.
 
+## Demo
+Akses link di bawah ini untuk melihat demo :
+[**https://nextjs-multi-languages.netlify.com/**](https://nextjs-multi-languages.netlify.com/ "**https://nextjs-multi-languages.netlify.com/**")
+
 ## Screenshoot
 
 ![Screenshoot](https://i.ibb.co/CM4bsSc/Screen-Shot-2018-12-20-at-13-45-24.png)
