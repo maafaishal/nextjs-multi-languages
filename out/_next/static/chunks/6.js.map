@@ -1,1 +1,0 @@
-{"version":3,"file":"static/chunks/6.js","sources":["webpack:///./lang/jp.js"],"sourcesContent":["export default {\n  title: 'シンプルなマルチ言語',\n  description: '以下の言語を選択してください'\n}\n"],"mappings":";;;;;;;;;;AAAA;AAAA;AACA;AACA;AAFA;;;;A","sourceRoot":""}

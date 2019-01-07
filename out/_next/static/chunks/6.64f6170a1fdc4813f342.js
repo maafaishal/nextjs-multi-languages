@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{113:function(a,i,n){"use strict";n.r(i),i.default={title:"Simple Multi Bahasa",description:"Silahkan pilih bahasa yang ada di bawah ini"}}}]);

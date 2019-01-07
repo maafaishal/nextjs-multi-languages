@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{109:function(i,n,t){"use strict";t.r(n),n.default={title:"簡單的多語言",description:"請選擇以下語言"}}}]);

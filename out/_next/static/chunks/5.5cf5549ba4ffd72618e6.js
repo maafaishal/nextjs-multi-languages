@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{112:function(e,i,n){"use strict";n.r(i),i.default={title:"Einfache Multi Language",description:"Bitte wählen Sie die Sprache aus"}}}]);
