@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[8],{115:function(i,n,t){"use strict";t.r(n),n.default={title:"단순 다중 언어",description:"아래 언어를 선택하십시오"}}}]);

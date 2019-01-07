@@ -1,0 +1,1 @@
+{"version":3,"file":"static/chunks/7.js","sources":["webpack:///./lang/kr.js"],"sourcesContent":["export default {\n  title: '단순 다중 언어',\n  description: '아래 언어를 선택하십시오'\n}\n"],"mappings":";;;;;;;;;;AAAA;AAAA;AACA;AACA;AAFA;;;;A","sourceRoot":""}

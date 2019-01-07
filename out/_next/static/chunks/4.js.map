@@ -1,0 +1,1 @@
+{"version":3,"file":"static/chunks/4.js","sources":["webpack:///./lang/gr.js"],"sourcesContent":["export default {\n  title: 'Einfache Multi Language',\n  description: 'Bitte wählen Sie die Sprache aus'\n}\n"],"mappings":";;;;;;;;;;AAAA;AAAA;AACA;AACA;AAFA;;;;A","sourceRoot":""}
