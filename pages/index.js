@@ -1,17 +1,16 @@
 import React from 'react'
-import Link from 'next/link'
+import PropTypes from 'prop-types'
 import Head from '../components/head'
 import Nav from '../components/nav'
 import GetLang from '../components/GetLang'
 
 class Home extends React.Component {
-
   changeLanguage (lang) {
     window.localStorage.setItem('lang', lang)
     location.reload()
   }
 
-  render() {
+  render () {
     return (
       <div>
         <Head title="Home" />
@@ -110,7 +109,12 @@ class Home extends React.Component {
           }
         `}</style>
       </div>
-    )}
+    )
+  }
+}
+
+Home.propTypes = {
+  data: PropTypes.object
 }
 
 export default GetLang(Home)
