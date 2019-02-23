@@ -1,0 +1,32 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "standard",
+    "plugin:react/recommended"
+  ],
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "plugins": [
+    "import",
+    "react",
+    "jsx-a11y"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "globalReturn": true,
+      "generators": false,
+      "objectLiteralDuplicateProperties": false,
+      "experimentalObjectRestSpread": true,
+      "jsx": true
+    },
+    "ecmaVersion": 2017,
+    "sourceType": "module"
+  },
+  "rules": {
+    "no-console": 1,
+    "no-multiple-empty-lines": [2, { "max": 1 }]
+  }
+}
