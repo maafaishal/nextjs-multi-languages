@@ -2,7 +2,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Head from '../components/head'
 import Nav from '../components/nav'
+
 import GetLang from '../components/GetLang'
+import Languages from '../components/languageList'
 
 class Home extends React.Component {
   changeLanguage (lang) {
@@ -23,38 +25,12 @@ class Home extends React.Component {
           </p>
 
           <div className="row">
-            <div className="card" onClick={() => this.changeLanguage('id')}>
-              <img src="/static/flags/indonesia.png" />
-              <h4>Indonesian</h4>
-            </div>
-            <div className="card" onClick={() => this.changeLanguage('en')}>
-              <img src="/static/flags/uk.png" />
-              <h4>English</h4>
-            </div>
-            <div className="card" onClick={() => this.changeLanguage('kr')}>
-              <img src="/static/flags/korea.png" />
-              <h4>Korean</h4>
-            </div>
-            <div className="card" onClick={() => this.changeLanguage('jp')}>
-              <img src="/static/flags/japan.png" />
-              <h4>Japanese</h4>
-            </div>
-            <div className="card" onClick={() => this.changeLanguage('gr')}>
-              <img src="/static/flags/germany.png" />
-              <h4>German</h4>
-            </div>
-            <div className="card" onClick={() => this.changeLanguage('fr')}>
-              <img src="/static/flags/france.png" />
-              <h4>French</h4>
-            </div>
-            <div className="card" onClick={() => this.changeLanguage('sp')}>
-              <img src="/static/flags/spain.png" />
-              <h4>Spanish</h4>
-            </div>
-            <div className="card" onClick={() => this.changeLanguage('cn')}>
-              <img src="/static/flags/chinese.png" />
-              <h4>Chinese</h4>
-            </div>
+            {Languages.map((data, i) =>
+              <div key={i} className="card" onClick={() => this.changeLanguage(data.code)}>
+                <img src={`/static/${data.flag}`} />
+                <h4>{data.title}</h4>
+              </div>
+            )}
           </div>
         </div>
 
